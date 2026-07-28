@@ -18,10 +18,10 @@ todo|4403|Task lists
 trace|4404|Network / WHOIS / ASN
 grid|4405|Kanban
 pulse|4406|System metrics
-habit|4407|Habit tracker / streaks (planned)
+habit|4407|Habit tracker / streaks
 mark|4408|Bookmarks
-poll|4409|Polls / quick votes (planned)
-probe|4410|Uptime / endpoint health (planned)
+poll|4409|Polls / quick votes
+probe|4410|Uptime / endpoint health
 snake|4501|Snake game
 rustle|4502|Wordle clone
 scan|4503|Sector scanner / minesweeper
