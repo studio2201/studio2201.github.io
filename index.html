@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>studio2201 — self-hosted services &amp; games in Rust</title>
+  <meta name="description" content="Self-hosted web services and games in Rust — containers first, Unraid-ready. Clean, secure, and blazing fast.">
+  <meta name="theme-color" content="#0b0a1a">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="/">
+      <img src="assets/logo.png" alt="" width="36" height="36">
+      <span>studio2201</span>
+    </a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#games">Games</a>
+      <a href="#ports">Ports</a>
+      <a href="#install">Install</a>
+      <a class="btn btn-ghost" href="https://github.com/studio2201" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-banner" src="assets/header.jpg" alt="Neon landscape banner for studio2201" width="1376" height="344">
+      <div class="hero-copy">
+        <p class="eyebrow">Self-hosted · Rust · Containers</p>
+        <h1>Web services &amp; games for your lab</h1>
+        <p class="lede">
+          Clean, secure, and blazing fast apps — containers first, Unraid-ready.
+          Default ports are unique across the whole catalog.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#install">Get started</a>
+          <a class="btn btn-ghost" href="https://github.com/studio2201" rel="noopener">Browse repos</a>
+          <a class="btn btn-ghost" href="https://github.com/orgs/studio2201/packages" rel="noopener">GHCR images</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-head">
+        <h2>Web services</h2>
+        <p>Ports <code>4401–4410</code></p>
+      </div>
+      <div class="card-grid">
+        <a class="card" href="https://github.com/studio2201/beam">
+          <img src="assets/icons/beam.png" alt="" width="40" height="40">
+          <div>
+            <h3>Beam <span class="port">4401</span></h3>
+            <p>High-performance, secure self-hosted file sharing.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/pad">
+          <img src="assets/icons/pad.png" alt="" width="40" height="40">
+          <div>
+            <h3>Pad <span class="port">4402</span></h3>
+            <p>Collaborative real-time scratchpad.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/todo">
+          <img src="assets/icons/todo.png" alt="" width="40" height="40">
+          <div>
+            <h3>Todo <span class="port">4403</span></h3>
+            <p>Minimalist task management.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/trace">
+          <img src="assets/icons/trace.png" alt="" width="40" height="40">
+          <div>
+            <h3>Trace <span class="port">4404</span></h3>
+            <p>Network diagnostic, WHOIS, IP, and ASN lookup.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/grid">
+          <img src="assets/icons/grid.png" alt="" width="40" height="40">
+          <div>
+            <h3>Grid <span class="port">4405</span></h3>
+            <p>Clean, lightning-fast self-hosted Kanban board.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/pulse">
+          <img src="assets/icons/pulse.png" alt="" width="40" height="40">
+          <div>
+            <h3>Pulse <span class="port">4406</span></h3>
+            <p>Real-time system monitoring panel.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/statesync">
+          <img src="assets/icons/statesync.png" alt="" width="40" height="40">
+          <div>
+            <h3>StateSync <span class="port">4407</span></h3>
+            <p>Real-time state-syncing media server dashboard.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="games" class="section">
+      <div class="section-head">
+        <h2>Web games</h2>
+        <p>Ports <code>4501–4510</code></p>
+      </div>
+      <div class="card-grid">
+        <a class="card" href="https://github.com/studio2201/snake">
+          <img src="assets/icons/snake.png" alt="" width="40" height="40">
+          <div>
+            <h3>Snake <span class="port">4501</span></h3>
+            <p>Classic snake game.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/rustle">
+          <img src="assets/icons/rustle.png" alt="" width="40" height="40">
+          <div>
+            <h3>Rustle <span class="port">4502</span></h3>
+            <p>Self-hosted Wordle clone, dockerized.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/scan">
+          <img src="assets/icons/scan.png" alt="" width="40" height="40">
+          <div>
+            <h3>Scan <span class="port">4503</span></h3>
+            <p>Planetary hazard sector scanner — a Minesweeper clone.</p>
+          </div>
+        </a>
+        <a class="card" href="https://github.com/studio2201/defend">
+          <img src="assets/icons/defend.png" alt="" width="40" height="40">
+          <div>
+            <h3>Defend <span class="port">4504</span></h3>
+            <p>Retro-neon vertical space shooter.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="ports" class="section">
+      <div class="section-head">
+        <h2>Default ports</h2>
+        <p>No collisions. Container <code>EXPOSE</code> and host <code>-p</code> use the same number.</p>
+      </div>
+      <div class="ports-wrap">
+        <table class="ports">
+          <thead>
+            <tr><th>Port</th><th>App</th><th>Kind</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>4401</code></td><td>beam</td><td>service</td></tr>
+            <tr><td><code>4402</code></td><td>pad</td><td>service</td></tr>
+            <tr><td><code>4403</code></td><td>todo</td><td>service</td></tr>
+            <tr><td><code>4404</code></td><td>trace</td><td>service</td></tr>
+            <tr><td><code>4405</code></td><td>grid</td><td>service</td></tr>
+            <tr><td><code>4406</code></td><td>pulse</td><td>service</td></tr>
+            <tr><td><code>4407</code></td><td>statesync</td><td>service</td></tr>
+            <tr class="dim"><td><code>4408–4410</code></td><td colspan="2">reserved</td></tr>
+            <tr><td><code>4501</code></td><td>snake</td><td>game</td></tr>
+            <tr><td><code>4502</code></td><td>rustle</td><td>game</td></tr>
+            <tr><td><code>4503</code></td><td>scan</td><td>game</td></tr>
+            <tr><td><code>4504</code></td><td>defend</td><td>game</td></tr>
+            <tr class="dim"><td><code>4505–4510</code></td><td colspan="2">reserved</td></tr>
+          </tbody>
+        </table>
+        <p class="note">
+          Canonical source:
+          <a href="https://github.com/studio2201/.github/blob/master/PORTS.md">PORTS.md</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="install" class="section">
+      <div class="section-head">
+        <h2>Install</h2>
+        <p>Containers are the supported path today. Native packages coming via <code>packages/install.sh</code>.</p>
+      </div>
+
+      <div class="install-grid">
+        <article class="panel">
+          <h3>Docker (one line)</h3>
+          <p class="panel-desc">Replace <code>APP</code> and <code>PORT</code> — e.g. <code>beam</code> / <code>4401</code>.</p>
+          <pre class="code"><code>docker run -d --name APP \
+  -p PORT:PORT \
+  -v /mnt/user/appdata/APP:/config \
+  ghcr.io/studio2201/APP:latest</code></pre>
+          <p class="example">Example — Beam:</p>
+          <pre class="code"><code>docker run -d --name beam \
+  -p 4401:4401 \
+  -v /mnt/user/appdata/beam:/config \
+  ghcr.io/studio2201/beam:latest</code></pre>
+        </article>
+
+        <article class="panel">
+          <h3>Helper script</h3>
+          <p class="panel-desc">Prints the docker run line (and runs it with <code>--run</code>).</p>
+          <pre class="code"><code>curl -fsSL https://studio2201.github.io/packages/install.sh \
+  | bash -s -- beam</code></pre>
+          <pre class="code"><code>curl -fsSL https://studio2201.github.io/packages/install.sh \
+  | bash -s -- --run pad</code></pre>
+          <p class="note">Also accepts the bare form used in READMEs (shows usage + catalog).</p>
+        </article>
+
+        <article class="panel">
+          <h3>Unraid</h3>
+          <p class="panel-desc">Each app ships a DockerMan template XML in its repo.</p>
+          <ol class="steps">
+            <li>Copy <code>APP.xml</code> to <code>/boot/config/plugins/dockerMan/templates-user/</code></li>
+            <li>Docker → Add Container → pick the template</li>
+            <li>Apply</li>
+          </ol>
+        </article>
+
+        <article class="panel">
+          <h3>Shared design system</h3>
+          <p class="panel-desc">
+            UI components and backend utilities live in
+            <a href="https://github.com/studio2201/shared-assets">shared-assets</a>.
+          </p>
+          <p class="note">
+            Desktop Linux apps (including Trance) live at
+            <a href="https://github.com/crateria">crateria</a>.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img class="footer-art" src="assets/corgi-footer.jpg" alt="" width="160" height="160">
+    <div>
+      <p><strong>studio2201</strong> — self-hosted web services &amp; games in Rust.</p>
+      <p class="muted">
+        <a href="https://github.com/studio2201">GitHub</a>
+        ·
+        <a href="https://github.com/studio2201/.github">Org profile</a>
+        ·
+        <a href="https://github.com/orgs/studio2201/packages">Packages</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
