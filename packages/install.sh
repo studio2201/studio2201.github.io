@@ -19,7 +19,7 @@ trace|4404|Network / WHOIS / ASN
 grid|4405|Kanban
 pulse|4406|System metrics
 habit|4407|Habit tracker / streaks (planned)
-mark|4408|Bookmarks (planned)
+mark|4408|Bookmarks
 poll|4409|Polls / quick votes (planned)
 probe|4410|Uptime / endpoint health (planned)
 snake|4501|Snake game
