@@ -23,6 +23,7 @@
     <nav>
       <a href="#services">Services</a>
       <a href="#games">Games</a>
+      <a href="#media">Media</a>
       <a href="#ports">Ports</a>
       <a href="#install">Install</a>
       <a class="btn btn-ghost" href="https://github.com/studio2201" rel="noopener">GitHub</a>
@@ -37,7 +38,7 @@
         <h1>Web services &amp; games for your lab</h1>
         <p class="lede">
           Clean, secure, and blazing fast apps — containers first, Unraid-ready.
-          Default ports are unique across the whole catalog.
+          Ports: web services <code>4401–4410</code>, games <code>4501–4510</code>, media <code>4601–4610</code>.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#install">Get started</a>
@@ -95,13 +96,6 @@
             <p>Real-time system monitoring panel.</p>
           </div>
         </a>
-        <a class="card" href="https://github.com/studio2201/statesync">
-          <img src="assets/icons/statesync.png" alt="" width="40" height="40">
-          <div>
-            <h3>StateSync <span class="port">4407</span></h3>
-            <p>Real-time state-syncing media server dashboard.</p>
-          </div>
-        </a>
       </div>
     </section>
 
@@ -142,6 +136,22 @@
       </div>
     </section>
 
+    <section id="media" class="section">
+      <div class="section-head">
+        <h2>Media services</h2>
+        <p>Ports <code>4601–4610</code> — media-stack sidecars (not general web apps)</p>
+      </div>
+      <div class="card-grid">
+        <a class="card" href="https://github.com/studio2201/statesync">
+          <img src="assets/icons/statesync.png" alt="" width="40" height="40">
+          <div>
+            <h3>StateSync <span class="port">4601</span></h3>
+            <p>Emby ↔ Jellyfin watch-state sync dashboard.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
     <section id="ports" class="section">
       <div class="section-head">
         <h2>Default ports</h2>
@@ -153,19 +163,20 @@
             <tr><th>Port</th><th>App</th><th>Kind</th></tr>
           </thead>
           <tbody>
-            <tr><td><code>4401</code></td><td>beam</td><td>service</td></tr>
-            <tr><td><code>4402</code></td><td>pad</td><td>service</td></tr>
-            <tr><td><code>4403</code></td><td>todo</td><td>service</td></tr>
-            <tr><td><code>4404</code></td><td>trace</td><td>service</td></tr>
-            <tr><td><code>4405</code></td><td>grid</td><td>service</td></tr>
-            <tr><td><code>4406</code></td><td>pulse</td><td>service</td></tr>
-            <tr><td><code>4407</code></td><td>statesync</td><td>service</td></tr>
-            <tr class="dim"><td><code>4408–4410</code></td><td colspan="2">reserved</td></tr>
-            <tr><td><code>4501</code></td><td>snake</td><td>game</td></tr>
-            <tr><td><code>4502</code></td><td>rustle</td><td>game</td></tr>
-            <tr><td><code>4503</code></td><td>scan</td><td>game</td></tr>
-            <tr><td><code>4504</code></td><td>defend</td><td>game</td></tr>
-            <tr class="dim"><td><code>4505–4510</code></td><td colspan="2">reserved</td></tr>
+            <tr><td><code>4401</code></td><td>beam</td><td>web service</td></tr>
+            <tr><td><code>4402</code></td><td>pad</td><td>web service</td></tr>
+            <tr><td><code>4403</code></td><td>todo</td><td>web service</td></tr>
+            <tr><td><code>4404</code></td><td>trace</td><td>web service</td></tr>
+            <tr><td><code>4405</code></td><td>grid</td><td>web service</td></tr>
+            <tr><td><code>4406</code></td><td>pulse</td><td>web service</td></tr>
+            <tr class="dim"><td><code>4407–4410</code></td><td colspan="2">reserved (web services)</td></tr>
+            <tr><td><code>4501</code></td><td>snake</td><td>web game</td></tr>
+            <tr><td><code>4502</code></td><td>rustle</td><td>web game</td></tr>
+            <tr><td><code>4503</code></td><td>scan</td><td>web game</td></tr>
+            <tr><td><code>4504</code></td><td>defend</td><td>web game</td></tr>
+            <tr class="dim"><td><code>4505–4510</code></td><td colspan="2">reserved (web games)</td></tr>
+            <tr><td><code>4601</code></td><td>statesync</td><td>media service</td></tr>
+            <tr class="dim"><td><code>4602–4610</code></td><td colspan="2">reserved (media services)</td></tr>
           </tbody>
         </table>
         <p class="note">

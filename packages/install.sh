@@ -18,11 +18,11 @@ todo|4403|Task lists
 trace|4404|Network / WHOIS / ASN
 grid|4405|Kanban
 pulse|4406|System metrics
-statesync|4407|Media server sync dashboard
 snake|4501|Snake game
 rustle|4502|Wordle clone
 scan|4503|Sector scanner / minesweeper
 defend|4504|Space shooter
+statesync|4601|Emby/Jellyfin watch-state sync (media)
 EOF
 )
 
