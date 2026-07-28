@@ -8,10 +8,9 @@ Public website for the [studio2201](https://github.com/studio2201) organization.
 
 | Path | Purpose |
 |------|---------|
-| `index.html` | Landing page — services, games, ports, install |
-| `styles.css` | Site styles (neon night theme matching brand banner) |
+| `index.html` | Landing page — services, games, media (links to repos) |
+| `styles.css` | Site styles |
 | `assets/` | Logo, banner, app icons |
-| `packages/install.sh` | Install helper referenced from app READMEs |
 
 ## Local preview
 
