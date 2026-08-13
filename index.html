@@ -71,57 +71,7 @@
             z-index: 10;
         }
 
-        .glass-panel {
-            background: var(--glass-bg);
-            border: 2px solid var(--glass-border);
-            border-radius: 16px;
-            padding: 4rem 3rem;
-            max-width: 800px;
-            box-shadow: 8px 8px 0px rgba(255,255,255,1);
-            opacity: 0;
-            transform: translateY(40px);
-            animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
 
-        h1 {
-            font-size: clamp(3rem, 5vw, 5rem);
-            font-weight: 800;
-            line-height: 1.1;
-            margin-bottom: 1.5rem;
-            letter-spacing: -1px;
-        }
-        
-        .subtitle {
-            font-size: clamp(1.1rem, 2vw, 1.35rem);
-            font-weight: 300;
-            color: #b4b4c4;
-            max-width: 600px;
-            margin: 0 auto 2.5rem auto;
-        }
-        
-        .cta-btn {
-            display: inline-block;
-            padding: 1rem 2.5rem;
-            border: 2px solid var(--glass-border);
-            border-radius: 8px;
-            background: var(--bg);
-            color: var(--text);
-            font-weight: 800;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: transform 0.2s, background 0.2s, color 0.2s;
-        }
-        
-        .cta-btn:hover {
-            background: var(--text);
-            color: var(--bg);
-            transform: translateY(-2px);
-        }
-
-        @keyframes fadeUp {
-            to { opacity: 1; transform: translateY(0); }
-        }
         .apps-section {
             margin-top: 4rem;
             width: 100%;
@@ -182,13 +132,9 @@
         <a href="https://UberMetroid.github.io" class="back-link">← Ecosystem</a>
     </nav>
     <main>
-        <div class="glass-panel">
-            <h1>Experimental Digital Worlds</h1>
-            <p class="subtitle">Pushing the boundaries of interactive game development and surreal digital experiences.</p>
-            <a href="https://github.com/studio2201/studio2201" class="cta-btn">View Repository</a>
-        </div>
+
         <div class="apps-section">
-            <h2 style="font-size: 2rem; font-weight: 600; margin-bottom: 1rem; text-align: center;">Our Products</h2>
+            <h2 style="font-size: 2rem; font-weight: 600; margin-bottom: 1rem; text-align: center;">Fundamental Self-Hosted Primitives</h2>
             <div class="apps-grid">
                 <a href="https://github.com/studio2201/proof" class="app-card">
                     <img src="assets/apps/proof.png" alt="Proof" class="app-icon">
